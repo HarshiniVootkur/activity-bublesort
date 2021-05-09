@@ -8,6 +8,8 @@
 #include "cmath"
 #include "par_loop.hpp"
 
+using namespace std;
+
 #ifdef __cplusplus
 extern "C" {
 #endif
