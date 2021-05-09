@@ -1,5 +1,5 @@
-#ifndef__OMPLOOP__
-#define__OMPLOOP__
+#ifndef _OMPLOOP_
+#define _OMPLOOP_
 
 #include <functional>
 
