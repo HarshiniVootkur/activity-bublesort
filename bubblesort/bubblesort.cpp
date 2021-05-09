@@ -21,7 +21,7 @@ extern "C" {
 }
 #endif
 
-void swapFn(int *array, int i, int j);
+void swap(int *array, int i, int j);
 {
   int temp = array[i];
   array[i] = array[j];
@@ -43,7 +43,7 @@ int main (int argc, char* argv[]) {
   generateMergeSortData (arr, n);
 
   OpenMPLoop o;
-  o.setNbThread(nbthreads);
+  o.nbthread(nbthreads);
   
   bool swappedval = true;
   while(swappedval)
