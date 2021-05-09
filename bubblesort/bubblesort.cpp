@@ -42,7 +42,7 @@ int main (int argc, char* argv[]) {
   int * arr = new int [n];
   generateMergeSortData (arr, n);
 
-  OmpLoop o;
+  OpenMPLoop o;
   o.setNbThread(nbthreads);
   
   bool swappedval = true;

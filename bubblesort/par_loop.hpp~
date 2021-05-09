@@ -1,0 +1,8 @@
+#ifndef_OMPLOOP_
+#define_OMPLOOP_
+
+#include <functional>
+
+class OmpLoop
+{
+  
